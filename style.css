@@ -1,0 +1,71 @@
+header {
+    background-color: rgb(150, 114, 209);
+    height: 150px;
+    color: white;
+    position: relative;
+}
+
+header h1 {
+    position: absolute;
+    top: 25%;
+    left: 10px;
+}
+
+div.left {
+    float: left;
+    box-sizing: border-box;
+    width: 30%;
+}
+
+div.left ul {
+    list-style: none;
+}
+
+div.left ul li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: lightblue;
+    color: #fff;
+
+}
+
+div.left ul li:hover {
+    background-color: darkblue;
+}
+
+div.right {
+    float: right;
+    width: 60%;
+}
+
+section {
+    clear: both;
+    padding: 10px;
+}
+
+figure {
+    float: left;
+}
+
+figure img {
+    width: 120px;
+}
+
+figure+p {
+    clear: both;
+}
+
+footer {
+    background-color: rgb(150, 114, 209);
+    height: 100px;
+    margin-top: 20px;
+    color: white;
+    vertical-align: middle;
+    position: relative;
+}
+
+footer p {
+    position: absolute;
+    top: 25%;
+    left: 10px;
+}
